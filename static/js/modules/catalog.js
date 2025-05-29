@@ -239,6 +239,7 @@ export function useCatalog() {
 
     return {
         books,
+        categories,
         selectedCategories,
         priceRange,
         selectedRatings,

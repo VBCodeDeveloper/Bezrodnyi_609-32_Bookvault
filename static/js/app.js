@@ -165,8 +165,7 @@ const app = createApp({
         return {
             categories,
 
-            ...useAuth(),
-            ...useCart(),
+
 
             ...useIndexPage(),
             ...useCatalog(),
@@ -176,6 +175,9 @@ const app = createApp({
             ...useContact(),
             ...useProfile(),
             ...useProduct(),
+
+            ...useAuth(),
+            ...useCart(),
         };
     }
 })
