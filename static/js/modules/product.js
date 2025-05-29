@@ -1,7 +1,6 @@
 import { ref } from '../vue.esm-browser.prod.js'
 
 export function useProduct() {
-const isLoggedIn = ref(false);
     const quantity = ref(1);
     const activeTab = ref('description');
 

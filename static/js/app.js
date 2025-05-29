@@ -9,7 +9,7 @@ import { useCheckout } from "./modules/checkout.js";
 import { useContact } from "./modules/contact.js";
 import { useProfile } from "./modules/profile.js";
 import { useProduct } from "./modules/product.js";
-import { useSignUp } from "./modules/accounts.js";
+// import { useSignUp } from "./modules/accounts.js";
 
 const app = createApp({
     setup() {

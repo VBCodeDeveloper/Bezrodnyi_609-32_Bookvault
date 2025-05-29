@@ -9,23 +9,6 @@
 {% endblock styles %}
 
 {% block content %}
-        <nav>
-            <ul>
-                {% if user.is_authenticated %}
-                <li>
-                    <form class="form" action="/accounts/logout/" method="post">
-                        {% csrf_token %}
-                        <button type="submit">Logout</button>
-                    </form>
-                </li>
-                {% else %}
-                    <li>
-                        <a href="{% url 'login' %}">Login</a>
-                    </li>
-                {% endif %}
-            </ul>
-        </nav>
-
         <!-- Основной контент -->
         <div class="flex">
             <!-- Боковое меню -->

@@ -195,6 +195,6 @@ export function useProfile() {
         addToCartFromWishlist,
         removeFromWishlist,
         getStatusText,
-        logout
+        // logout
     };
 }

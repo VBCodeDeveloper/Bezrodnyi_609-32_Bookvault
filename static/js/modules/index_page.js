@@ -48,7 +48,7 @@ export function useIndexPage() {
             role: 'Книжный блогер',
             rating: 5,
             comment: 'BookVault полностью изменил мой опыт чтения. Подборка книг невероятная, а цены непревзойденные.',
-            avatar: 'https://randomuser.me/api/portraits/women/43.jpg'
+            avatar: 'static/images/peoples/sora.jpg'
         },
         {
             id: 2,

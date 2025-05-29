@@ -15,9 +15,10 @@ export function useAuth() {
         showAuthModal.value = false;
         auth.value = {email: '', password: ''};
     };
-    const logout = () => {
-        isLoggedIn.value = false;
-    };
+
+    // const logout = () => {
+    //     isLoggedIn.value = false;
+    // };
 
     const toggleAuthModal = () => {
         showAuthModal.value = !showAuthModal.value;
@@ -28,7 +29,7 @@ export function useAuth() {
         showAuthModal,
         auth,
         login,
-        logout,
+        // logout,
         toggleAuthModal,
     }
 }

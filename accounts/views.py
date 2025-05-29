@@ -33,4 +33,4 @@ def logout_view(request):
     if request.method == 'POST':
         logout(request)
 
-    return HttpResponseRedirect('/profile')
+    return HttpResponseRedirect('/')
